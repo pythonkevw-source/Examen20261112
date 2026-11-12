@@ -28,7 +28,7 @@ def unieke_diersoorten():
     dieren = set()
     for rij in dieren_list:
         dieren.add(rij[1])
-    print(dieren)
+    print(*dieren)
 
 #Toon alle unieke landen
 def unieke_landen():
